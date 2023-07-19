@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ResttemplateApplication {
+public class RestTemplateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ResttemplateApplication.class, args);
+        SpringApplication.run(RestTemplateApplication.class, args);
+        System.out.println("RestTemplate client service running.");
     }
 
 }
